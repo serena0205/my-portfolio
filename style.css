@@ -14,9 +14,28 @@ p{
   color: #555;
   line-height: 1.8;
 }
-.profile-img{
-  width: 300px;
+profile{
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
 }
+.profile-img{
+  width: 260px;
+  flex-shrink: 0;
+  display: block;
+}
+profile-text h1{
+  margin-top: 0;
+}
+@media screen(max-width: 600px) {
+  .profile{
+    flex-direction: column;
+  }
+}
+
+
+
+
 main{
   background: white;
   padding: 20px;
