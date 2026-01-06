@@ -14,9 +14,9 @@ p{
   color: #555;
   line-height: 1.8;
 }
-profile{
+.profile{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 24px;
 }
 .profile-img{
@@ -24,8 +24,8 @@ profile{
   flex-shrink: 0;
   display: block;
 }
-profile-text h1{
-  margin-top: 0;
+.profile-text {
+  max-width: 520px;
 }
 @media screen(max-width: 600px) {
   .profile{
