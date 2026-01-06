@@ -17,8 +17,10 @@ p{
 .profile{
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 40px;
+  background: transpart;
 }
+
 .profile-img{
   width: 260px;
   flex-shrink: 0;
