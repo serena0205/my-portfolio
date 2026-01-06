@@ -23,6 +23,10 @@ p{
   width: 260px;
   flex-shrink: 0;
   display: block;
+  background: white;
+  padding: 12px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 .profile-text {
   max-width: 520px;
