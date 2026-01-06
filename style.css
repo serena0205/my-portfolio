@@ -18,7 +18,7 @@ p{
   display: flex;
   align-items: center;
   gap: 40px;
-  background: transpart;
+  background: transparent;
 }
 .img-card{
   background: #fff;
@@ -34,7 +34,7 @@ p{
 .profile-text {
   max-width: 520px;
 }
-@media screen(max-width: 600px) {
+@media screen and (max-width: 600px) {
   .profile{
     flex-direction: column;
   }
@@ -44,6 +44,6 @@ p{
 
 
 main{
-  padding: 20px;
-  border-radius: 12px;
+  padding: 0px;
+  border-radius: 0px;
 }
