@@ -18,7 +18,7 @@ p{
   display: flex;
   align-items: center;
   gap: 24px;
-  background: transparent;
+  background: white;
 }
 .profile-img{
   width: 260px;
