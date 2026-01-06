@@ -17,3 +17,8 @@ p{
 .profile-img{
   width: 300px;
 }
+main{
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
