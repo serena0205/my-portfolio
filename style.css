@@ -18,13 +18,11 @@ p{
   display: flex;
   align-items: center;
   gap: 24px;
-  background: white;
 }
 .profile-img{
   width: 260px;
   flex-shrink: 0;
   display: block;
-  background: white;
   padding: 16px;
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.12);
